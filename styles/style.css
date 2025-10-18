@@ -10,7 +10,6 @@
 
 .header {
   position: relative;
-
   /* max-height: 100vw;
 min-height: 668px;
 min-width: 375px; */
@@ -167,6 +166,7 @@ padding-top: 0; */
   padding-top: 273px;
   /* width: 759px; */
   letter-spacing: 0.02em;
+inset-inline-start: calc(-1 * var(--main-gap));
 }
 
 .question {
@@ -211,7 +211,7 @@ left: 384px; */
   color: var(--main-color-title);
   margin-bottom: 20px;
   font-weight: 700;
-  font-family: "IMB Plex mono", monospace;
+  font-family: "IMB Plex mono", sans-serif;
 font-style: Bold;
 font-size: 18px;
 line-height: 23.4px;
@@ -267,6 +267,8 @@ letter-spacing: 0%;
   background-color: var(--main-color-title);
   color: var(--main-bg-color);
   margin-bottom: 10px;
+  font-size: 18px;
+   font-family: "IMB Plex mono", serif;
 }
 
 .block__title {
@@ -293,6 +295,7 @@ letter-spacing: 0%;
 }
 
 .block-bilds {
+  margin-top: 80px;
   gap: 20px;
 }
 
@@ -324,6 +327,13 @@ letter-spacing: 0%;
   align-items: center;
 }
 
-.footer .focus {
+.footer .footer__focus {
   text-shadow: 2px 2px 0 #ff0070;
+  color: rgba(219, 0, 255, 1);
+ position: relative;
+  font-family: "IMB Plex mono", sans-serif;
+  font-weight: 700;
+  font-size: 157px;
+  line-height: 83%;
+  font-style: bold;
 }
