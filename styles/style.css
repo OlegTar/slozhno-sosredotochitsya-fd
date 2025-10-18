@@ -166,7 +166,7 @@ padding-top: 0; */
   text-shadow: 4px 4px 0 var(--main-color-title);
   padding-top: 273px;
   /* width: 759px; */
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
 }
 
 .question {
@@ -192,7 +192,7 @@ left: 384px; */
   gap: 50px;
   padding: 0 20px;
   background-color: var(--main-heading-color);
-  margin-top: 134px;
+  margin-top: 74px;
   padding-top: 60px;
 }
 
