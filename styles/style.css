@@ -171,8 +171,6 @@ inset-inline-start: calc(-1 * var(--main-gap));
   opacity: 1;
   background-color: var(--main-color-title);
   justify-self: end;
-  margin-top: 114px;
-  
 }
 
 .content {
@@ -254,7 +252,7 @@ line-height: 23.4px;
   background-color: var(--main-color-title);
   color: var(--main-bg-color);
   font-size: 18px;
-   font-family: "IMB Plex mono", serif;
+   font-family: "IMB Plex mono", monospace;
 }
 
 .block__title {
@@ -268,7 +266,9 @@ line-height: 23.4px;
 
 .block__content {
   color: var(--main-text-color);
+  font-family: "IMB Plex mono", monospace;
 }
+
 
 .content-section__middle {
   margin-top: 50px;
