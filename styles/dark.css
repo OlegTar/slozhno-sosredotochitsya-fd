@@ -1,5 +1,5 @@
 :root.theme-dark {
- --main-font-family: "IMB Plex mono", monospace;
+ --main-font-family: "IMB Plex mono", sans-serif;
   --main-color-title: #ff0070;
 	--main-bg-color: #000028;
 --bg-image: url(../images/cover-image-dark.png);
@@ -14,7 +14,7 @@
 
  @media  (prefers-color-scheme: dark) {
   :root {
---main-font-family: "IMB Plex mono", monospace;
+--main-font-family: "IMB Plex mono", sans-serif;
 --main-color-title: #ff0070;
 --main-bg-color: #000028;
 --bg-image: url(../images/cover-image-dark.png);
