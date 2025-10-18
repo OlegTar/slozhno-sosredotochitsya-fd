@@ -171,6 +171,7 @@ inset-inline-start: calc(-1 * var(--main-gap));
   opacity: 1;
   background-color: var(--main-color-title);
   justify-self: end;
+  margin-top: 114px;
 }
 
 .content {
