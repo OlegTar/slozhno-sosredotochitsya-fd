@@ -166,7 +166,7 @@ padding-top: 0; */
   text-shadow: 4px 4px 0 var(--main-color-title);
   padding-top: 273px;
   /* width: 759px; */
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 .question {
@@ -211,6 +211,12 @@ left: 384px; */
   color: var(--main-color-title);
   margin-bottom: 20px;
   font-weight: 700;
+  font-family: "IMB Plex mono", monospace;
+font-style: Bold;
+font-size: 18px;
+line-height: 23.4px;
+letter-spacing: 0%;
+
 }
 
 @media (width >= 768px) {
