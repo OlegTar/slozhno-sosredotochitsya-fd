@@ -1,8 +1,8 @@
 
 :root {
-	--main-font-family: "IMB Plex mono", monospace;
-  --main-color-title: #ff0070;
-	--main-bg-color: #000028;
+--main-font-family: "IMB Plex mono", monospace;
+--main-color-title: #ff0070;
+--main-bg-color: #000028;
 --bg-image: url(../images/cover-image-dark.png);
 --main-text-color: #f1b2ce;
 --nav-color: #ff0070;
@@ -23,4 +23,5 @@
 	--main-gap: 20px;
 	--header-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 	--footer-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }}
+  }
+}

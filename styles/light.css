@@ -17,9 +17,7 @@
 --footer-logo-color: rgba(225 0 112 / 0.4);
 }	
 
-.theme-light .header__decorated-element {
-display: none;
-}
+
 
  @media (prefers-color-scheme: light) {
     :root {
@@ -40,6 +38,6 @@ display: none;
   }
 }
 
-.header__decorated-element {
+.theme-light .header__decorated-element {
 display: none;
 }
