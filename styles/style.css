@@ -198,9 +198,9 @@ left: 384px; */
 
 .section {
   display: grid;
-  gap: 20px;
-  font-size: var(--main-font-size, 18px);
-  line-height: var(--main-line-height, 23.4px);
+  /* gap: 20px; */
+  font-size: "IMB Plex mono", sans-serif;
+  line-height: 23.4px;
 }
 
 .content-section {
@@ -209,7 +209,7 @@ left: 384px; */
 
 .content-section__title {
   color: var(--main-color-title);
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   font-weight: 700;
   font-family: "IMB Plex mono", sans-serif;
 font-style: Bold;
