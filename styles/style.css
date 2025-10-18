@@ -285,6 +285,7 @@ letter-spacing: 0%;
 }
 
 .content-section__middle {
+  margin-top: 20px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
