@@ -147,7 +147,7 @@ min-width: 375px;
 
 .focus {
   position: relative;
-  font-family: "IMB Plex mono", monospace;
+  font-family: "IBM Plex mono", monospace;
   font-weight: 700;
   font-size: 157px;
   line-height: 83%;
@@ -162,7 +162,7 @@ inset-inline-start: calc(-1 * var(--main-gap));
 .question {
   width: 491px;
   height: 71px;
-  font-family: "IMB Plex mono", monospace;
+  font-family: "IBM Plex mono", monospace;
   font-weight: 700;
   font-style: Bold;
   font-size: 18px;
@@ -186,7 +186,7 @@ inset-inline-start: calc(-1 * var(--main-gap));
 .section {
   display: grid;
   gap: 20px;
-  font-size: "IMB Plex mono", sans-serif;
+  font-size: "IBM Plex mono", sans-serif;
   line-height: 23.4px;
 }
 
@@ -198,7 +198,7 @@ inset-inline-start: calc(-1 * var(--main-gap));
   color: var(--main-color-title);
   /* margin-bottom: 20px; */
   font-weight: 700;
-  font-family: "IMB Plex mono", monospace;
+  font-family: "IBM Plex mono", monospace;
 font-style: Bold;
 font-size: 18px;
 line-height: 23.4px;
@@ -252,7 +252,7 @@ line-height: 23.4px;
   background-color: var(--main-color-title);
   color: var(--main-bg-color);
   font-size: 18px;
-font-family: "IMB Plex mono", monospace;
+font-family: "IBM Plex mono", monospace;
 line-height: 23.4px;
 }
 
@@ -267,7 +267,7 @@ line-height: 23.4px;
 
 .block__content {
   color: var(--main-text-color);
-  font-family: "IMB Plex mono", monospace;
+  font-family: "IBM Plex mono", monospace;
 }
 
 
@@ -280,7 +280,6 @@ line-height: 23.4px;
   display: grid;
   grid-row: 2;
   grid-column: span 3;
- 
 }
 
 .advice {
@@ -325,7 +324,7 @@ line-height: 23.4px;
   text-shadow: 2px 2px 0 #ff0070;
   color: rgba(219, 0, 255, 1);
  position: relative;
-  font-family: "IMB Plex mono", sans-serif;
+  font-family: "IBM Plex mono", sans-serif;
   font-weight: 700;
   font-size: 157px;
   line-height: 83%;
