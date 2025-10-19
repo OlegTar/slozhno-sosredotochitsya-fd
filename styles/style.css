@@ -196,7 +196,7 @@ inset-inline-start: calc(-1 * var(--main-gap));
 
 .content-section__title {
   color: var(--main-color-title);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-weight: 700;
   font-family: "IMB Plex mono", sans-serif;
 font-style: Bold;
@@ -289,7 +289,7 @@ line-height: 23.4px;
 }
 
 .block-bilds {
-  margin-top: 60px;
+  margin-top: 40px;
   gap: 20px;
 }
 
