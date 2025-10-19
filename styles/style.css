@@ -145,7 +145,7 @@ min-width: 375px;
 
 .focus {
   position: relative;
-  font-family: "IBM Plex mono", monospace;
+  font-family: "IBM Plex mono", sans-serif;
   font-weight: 700;
   font-size: 157px;
   line-height: 83%;
@@ -195,7 +195,6 @@ color: var(--main-color-title);
   /* margin-bottom: 20px; */
 font-weight: 700;
 font-family: "IBM Plex mono", sans-serif;
-font-style: Bold;
 font-size: 18px;
 line-height: 23.4px;
 }
