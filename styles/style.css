@@ -198,7 +198,7 @@ inset-inline-start: calc(-1 * var(--main-gap));
   color: var(--main-color-title);
   /* margin-bottom: 20px; */
   font-weight: 700;
-  font-family: "IMB Plex mono", sans-serif;
+  font-family: "IMB Plex mono", monospace;
 font-style: Bold;
 font-size: 18px;
 line-height: 23.4px;
