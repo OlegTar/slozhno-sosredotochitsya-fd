@@ -252,7 +252,8 @@ line-height: 23.4px;
   background-color: var(--main-color-title);
   color: var(--main-bg-color);
   font-size: 18px;
-   font-family: "IMB Plex mono", monospace;
+font-family: "IMB Plex mono", monospace;
+line-height: 23.4px;
 }
 
 .block__title {
@@ -279,6 +280,11 @@ line-height: 23.4px;
   display: grid;
   grid-row: 2;
   grid-column: span 3;
+ 
+}
+
+.advice {
+  margin-top: 10px;
 }
 
 .block-bilds {
