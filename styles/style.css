@@ -267,7 +267,7 @@ line-height: 23.4px;
 }
 
 .content-section__middle {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   grid-template-columns: 1fr 1fr 1fr;
 }
 
