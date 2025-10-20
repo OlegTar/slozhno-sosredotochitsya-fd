@@ -6,17 +6,13 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--background-color-fallback);
-  overflow: auto;
 }
 
 .header {
 position: relative;
-display: grid;
-grid-template-rows: 1fr min-content 1fr;
-grid-template-columns: 1fr;
-/* max-height: 100vw; */
-/* min-height: 668px;
-min-width: 375px;  */
+max-height: 100vw;
+min-height: 668px;
+min-width: 375px;
 }
 
 @media (width >= 768px) {
