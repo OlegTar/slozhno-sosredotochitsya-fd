@@ -6,13 +6,17 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--background-color-fallback);
+  overflow: auto;
 }
 
 .header {
 position: relative;
-max-height: 100vw;
-min-height: 668px;
-min-width: 375px; 
+display: grid;
+grid-template-rows: 1fr min-content 1fr;
+grid-template-columns: 1fr;
+/* max-height: 100vw; */
+/* min-height: 668px;
+min-width: 375px;  */
 }
 
 @media (width >= 768px) {
@@ -283,7 +287,7 @@ line-height: 23.4px;
 }
 
 .block-bilds {
-  margin-top: 40px;
+  margin-top: 20px;
   gap: 20px;
 }
 

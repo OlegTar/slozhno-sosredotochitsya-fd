@@ -10,7 +10,7 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
-  font-family: var(--main-font-famaly, sans-serif);
+  font-family: var(--main-font-famaly);
   font-size: 18px;
   line-height: 1.5;
   background-color: var(--main-bg-color, #fff);
