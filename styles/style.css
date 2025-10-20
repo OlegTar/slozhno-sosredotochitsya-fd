@@ -267,8 +267,8 @@ line-height: 23.4px;
 }
 
 .content-section__middle {
-  /* margin-top: 30px; */
   grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 10px; /* добавила */
 }
 
 .content-section__middle .text-blocks {
@@ -288,6 +288,7 @@ line-height: 23.4px;
 }
 
 .bilds-container {
+  margin-top: 20px; /* добавила */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
