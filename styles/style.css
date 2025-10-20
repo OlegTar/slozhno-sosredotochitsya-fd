@@ -152,7 +152,7 @@ min-width: 375px;
   color: rgba(219, 0, 255, 1);
   text-shadow: 4px 4px 0 var(--main-color-title);
   padding-top: 273px;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   inset-inline-start: calc(-1 * var(--main-gap));
 }
 
@@ -268,7 +268,7 @@ line-height: 23.4px;
 
 .content-section__middle {
   grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom: 10px; /* добавила */
+  /* padding-bottom: 10px; добавила */
 }
 
 .content-section__middle .text-blocks {
