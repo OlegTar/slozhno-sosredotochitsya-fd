@@ -175,13 +175,14 @@ position: relative;
   line-height: 83%;
   color: rgba(219, 0, 255, 1);
   text-shadow: 4px 4px 0 var(--section-heading-color);
-  padding-top: 273px;
+  /* padding-top: 273px; */
+  padding-top: 253px;
   inset-inline-start: calc(-1 * var(--main-gap));
 }
 
 .question {
   width: 491px;
-  height: 71px;
+  /* height: 71px; */
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 18px;
