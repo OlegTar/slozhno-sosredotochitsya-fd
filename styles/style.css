@@ -168,16 +168,24 @@ object-fit: cover;
 
 .focus {
 position: relative;
-  align-items: start;
+  align-items: center;
   font-family: var(--main-font-family);
   font-weight: 700;
-  font-size: 157px;
+  /* font-size: 157px; */
   line-height: 83%;
   color: rgba(219, 0, 255, 1);
   text-shadow: 4px 4px 0 var(--section-heading-color);
   /* padding-top: 273px; */
-  padding-top: 253px;
+  padding-top: 233px;
   inset-inline-start: calc(-1 * var(--main-gap));
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+
+@media (width >= 768px) {
+	.focus {
+		font-size: var(--logo-size);
+		margin-inline-start: -20px;
+	}
 }
 
 .question {
