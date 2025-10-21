@@ -1,5 +1,5 @@
 :root.theme-dark {
- --main-font-family: "IBM Plex mono", sans-serif;
+ --main-font-family: "IBM Plex mono", monospace;
   --main-color-title: #ff0070;
 	--main-bg-color: #000028;
 --bg-image: url(../images/cover-image-dark.png);
@@ -21,7 +21,7 @@
 
  @media  (prefers-color-scheme: dark) {
   :root {
---main-font-family: "IBM Plex mono", sans-serif;
+--main-font-family: "IBM Plex mono", monospace;
 --main-color-title: #ff0070;
 --main-bg-color: #000028;
 --bg-image: url(../images/cover-image-dark.png);
@@ -33,7 +33,6 @@
 --button-hover: rgba(255, 0, 112, 0.4);
 --button-focus: rgba(255, 0, 112, 1);
 --button-active: rgba(255, 0, 112, 1);
-
 --main-gap: 10px;
 --main-text-size: 10px;
 --main-line-height: 1.3;

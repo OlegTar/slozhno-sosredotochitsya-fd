@@ -91,7 +91,6 @@ object-fit: cover;
 
 .header__theme-menu {
  position: relative;
- 
 }
 
 .header__theme-menu-list {
@@ -179,8 +178,8 @@ position: relative;
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding: 0 20px;
-  
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 60px;
 }
 
@@ -189,7 +188,6 @@ position: relative;
   gap: 20px;
   font-size: var(--main-font-family);
   line-height: 23.4px;
-  
 }
 
 .content-section {
@@ -291,8 +289,6 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
   outline: none;
 }
 
-
-
 .content-section__middle {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -345,7 +341,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 .footer .footer__focus {
   text-shadow: 2px 2px 0 #ff0070;
   color: rgba(219, 0, 255, 1);
- position: relative;
+  position: relative;
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 157px;
