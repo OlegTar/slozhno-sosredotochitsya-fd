@@ -1,6 +1,5 @@
 .page {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11,15 +10,17 @@
 }
 
 .header {
-position: relative;
+/* position: relative; */
 /* max-height: 100vw; */
 /* min-height: 668px; */
-min-width: 375px;
-background-image: var(--bg-image);
-object-fit: fill;
-margin-left: 10px;
-margin-right: 10px;
+/* min-width: 375px; */
+ background-image: var(--bg-image);
+/* margin-left: 10px;
+margin-right: 10px; */
 
+display: grid;
+  grid-template-rows: 35% 1fr 35%;
+  align-items: center;
 /* grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -30,23 +31,27 @@ margin-right: 10px;
 @media (width >= 768px) {
   .header {
   min-height: 1024px;
-  margin-left: 20px;
-   margin-right: 20px;
+  /* margin-left: 20px;
+   margin-right: 20px; */
+    grid-template-rows: 45% 1fr 45%;
   }
 }
 
 @media (width >= 1024px) {
   .header {
     /* min-height: 768px; */
-  margin-left: 20px;
-   margin-right: 20px;
+  /* margin-left: 20px;
+   margin-right: 20px; */
+   /* margin-bottom: 114px; */
+    grid-template-rows: 2fr 3fr 2fr;
   }
 }
 
 .decorated-zone {
   position: relative;
   min-block-size: 100vb;
-  padding-top: 10px;
+  /* padding-top: 10px; */
+
 }
 
 .decorated-zone::before,
@@ -57,6 +62,8 @@ margin-right: 10px;
   block-size: 25px;
   inline-size: 25px;
   margin-top: 10px;
+  margin-right: 20px;
+  
 }
 
 .decorated-zone::before {
@@ -84,6 +91,7 @@ margin-right: 10px;
   font-size: 18px;
   line-height: 25px;
   color: var(--nav-color);
+   margin-right: 20px;
 }
 
 .header__decorated-element::after {
@@ -110,6 +118,7 @@ margin-right: 10px;
 	flex-direction: column;
 	align-items: flex-end;
 	gap: 10px;
+  
 }
 
 @media (width >= 768px) {
@@ -194,7 +203,9 @@ position: relative;
 @media (width >= 1024px) {
   .focus {
     font-size: 157px;
-    padding-top: 273px;
+    /* padding-top: 273px; */
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -222,6 +233,8 @@ margin-bottom: 68px; /*добавила*/
      width: 491px;
    margin-top: 114px;
    justify-self: end;
+
+    margin-right: 20px;
   }
 }
 
@@ -229,7 +242,6 @@ margin-bottom: 68px; /*добавила*/
 .content {
   display: flex;
   flex-direction: column;
-  gap: 50px;
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 60px;
@@ -240,6 +252,7 @@ margin-bottom: 68px; /*добавила*/
   .content {
    margin-left: 20px;
   margin-right: 20px;
+  gap: 50px;
   }
 }
 
@@ -252,7 +265,8 @@ margin-bottom: 68px; /*добавила*/
 }
 
 .content-section {
-  grid-template-columns: 1fr 2fr;
+   display: flex;
+  flex-direction: column;
 }
 
 .content-section__title {
