@@ -5,43 +5,43 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
+	/* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image: url("../images/cover-image-light.png");
-  --button-border-hover: rgba(50, 49, 45, 0.4);
-  --accent-color: #ff8dcb;
-  --main-bg-color: #ffc2e6;
-  --text-title-color: #353430;
-  --header-title-color: #ffc2e6;
-  --header-title-shadow-color: #ff8dcb;
-  --header-subtitle-color: #353430;
-  --content-text-color: #353430;
-  --footer-title-color: #ffc2e6;
-  --footer-shadow-color: #ff8dcb;
+	--bg-image: url("../images/cover-image-light.png");
+	--button-border-hover: rgba(50, 49, 45, 0.4);
+	--accent-color: #ff8dcb;
+	--main-bg-color: #ffeff9;
+	--text-title-color: #353430;
+	--header-title-color: #ffc2e6;
+	--header-title-shadow-color: #ff8dcb;
+	--header-subtitle-color: #353430;
+	--content-text-color: #353430;
+	--footer-title-color: #ffc2e6;
+	--footer-shadow-color: #ff8dcb;
 }
 
 :root.theme-light .decorative-rec {
-  display: none;
+	display: none;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --bg-image: url("../images/cover-image-light.png");
-    --button-border-hover: rgba(50, 49, 45, 0.4);
-    --accent-color: #ff8dcb;
-    --main-bg-color: #ffc2e6;
-    --text-title-color: #353430;
-    --header-title-color: #ffc2e6;
-    --header-title-shadow-color: #ff8dcb;
-    --header-subtitle-color: #353430;
-    --content-text-color: #353430;
-    --footer-title-color: #ffc2e6;
-    --footer-shadow-color: #ff8dcb;
-  }
+	:root {
+		--bg-image: url("../images/cover-image-light.png");
+		--button-border-hover: rgba(50, 49, 45, 0.4);
+		--accent-color: #ff8dcb;
+		--main-bg-color: #ffc2e6;
+		--text-title-color: #353430;
+		--header-title-color: #ffc2e6;
+		--header-title-shadow-color: #ff8dcb;
+		--header-subtitle-color: #353430;
+		--content-text-color: #353430;
+		--footer-title-color: #ffc2e6;
+		--footer-shadow-color: #ff8dcb;
+	}
 
-  :root .decorative-rec {
-    display: none;
-  }
+	:root .decorative-rec {
+		display: none;
+	}
 }
