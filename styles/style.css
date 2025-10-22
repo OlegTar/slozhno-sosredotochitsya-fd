@@ -252,7 +252,7 @@ margin-bottom: 68px; /*добавила*/
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 
@@ -453,13 +453,9 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
   color: rgba(219, 0, 255, 1);
   position: relative;
   font-family: var(--main-font-family);
+  font-size: 157px;
   font-weight: 700;
   line-height: 83%;
   
 }
 
-@media (width >= 1024px) {
-.footer .footer__focus {
-  font-size: 157px;
-}
-}
