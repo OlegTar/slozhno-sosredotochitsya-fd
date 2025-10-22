@@ -102,6 +102,10 @@
 	left: 0px;
 	border-bottom: 1px solid var(--text-title-color);
 	border-left: 1px solid var(--text-title-color);
+
+	@media (width > 375px) {
+		bottom: 20px;
+	}
 }
 
 .header__theme-menu {
