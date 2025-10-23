@@ -420,7 +420,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 }
 
 .bilds-container {
-  margin-top: 10px;
+  
   display: flex;
  flex-direction: column;
   gap: 10px;
