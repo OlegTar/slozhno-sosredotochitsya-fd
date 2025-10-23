@@ -335,20 +335,24 @@ color: var(--main-bg-color);
 font-size: 18px;
 font-family: var(--main-font-family);
 line-height: 23.4px;
+ margin-bottom: 10px;
 }
 
 .block__title {
   font-weight: 700;
+ 
 }
 
 .block__subtitle {
   margin-top: 10px;
-  font-weight: 400;
+  font-weight: 400; 
+ 
 }
 
 .block__content {
   color: var(--main-text-color);
-  font-family: var(--main-font-family);
+  font-family: var(--main-font-family); 
+
   /* margin-bottom: 20px; */
 }
 
