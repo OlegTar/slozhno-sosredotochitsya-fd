@@ -270,6 +270,10 @@ margin-bottom: 68px; /*добавила*/
    margin-bottom: 40px;
 }
 
+/* .section:last-child {
+margin-bottom: 0;
+} */
+
 .content-section {
   display: flex;
   flex-direction: column;
@@ -397,11 +401,11 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 .advice {
   
   margin-top: 10px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .block-bilds {
-  /* margin-top: 20px; */
+ margin-bottom: 20px;
   gap: 20px;
 }
 
@@ -450,7 +454,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-block-start: 40px;
+  /* margin-block-start: 40px; */
 	/* padding: 10px; */
   
 }
