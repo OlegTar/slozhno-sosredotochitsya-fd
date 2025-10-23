@@ -331,6 +331,14 @@ line-height: 23.4px;
  
 }
 
+.content-section__title__bilds {
+background-color: var(--main-color-title);
+font-weight: 700;
+font-family: var(--main-font-family);
+font-size: 18px;
+line-height: 23.4px;
+}
+
 .block__title,
 .block__subtitle {
 background-color: var(--section-heading-color);
@@ -417,7 +425,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
   margin-top: 20px;
   display: flex;
  flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 @media (width >= 768px) {
