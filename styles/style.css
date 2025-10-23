@@ -271,7 +271,7 @@ margin-bottom: 68px; /*добавила*/
 }
 
 .content-section {
-   display: flex;
+  display: flex;
   flex-direction: column;
 }
 
@@ -371,7 +371,13 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 }
 
 .content-section__middle {
+  grid-template-columns: 1fr;
+}
+
+@media (width >= 1024px) {
+  .content-section__middle {
   grid-template-columns: 1fr 1fr 1fr;
+}
 }
 
 .content-section__middle .text-blocks {
