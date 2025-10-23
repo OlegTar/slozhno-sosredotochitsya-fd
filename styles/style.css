@@ -335,7 +335,8 @@ color: var(--main-bg-color);
 font-size: 18px;
 font-family: var(--main-font-family);
 line-height: 23.4px;
- /* margin-bottom: 10px; */
+ margin-bottom: 10px;
+ color: black;
 }
 
 .block__title {
@@ -391,9 +392,11 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
   display: grid;
   grid-row: 2;
   grid-column: span 3;
+  
 }
 
 .advice {
+  
   margin-top: 10px;
   margin-bottom: 20px;
 }
