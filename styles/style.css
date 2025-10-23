@@ -251,7 +251,6 @@ margin-bottom: 68px; /*добавила*/
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 40px;
-  gap: 30px;
 }
 
 
@@ -263,12 +262,12 @@ margin-bottom: 68px; /*добавила*/
   }
 }
 
-
 .section {
   display: grid;
   gap: 20px;
   font-size: var(--main-font-family);
   line-height: 23.4px;
+   margin-bottom: 40px;
 }
 
 .content-section {
@@ -453,6 +452,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
   align-items: center;
   margin-block-start: 40px;
 	/* padding: 10px; */
+  
 }
 
 @media (width >= 1024px) {
