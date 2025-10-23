@@ -325,7 +325,7 @@ line-height: 23.4px;
 .block {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .block__title,
@@ -349,7 +349,7 @@ line-height: 23.4px;
 .block__content {
   color: var(--main-text-color);
   font-family: var(--main-font-family);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .block-link {
