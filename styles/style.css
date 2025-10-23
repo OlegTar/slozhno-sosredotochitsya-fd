@@ -404,6 +404,10 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
   margin-bottom: 20px;
 }
 
+.advice:last-child {
+  margin-bottom: 0;
+}
+
 .block-bilds {
  /* margin-bottom: 20px; */
   gap: 20px;
