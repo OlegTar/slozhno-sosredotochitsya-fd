@@ -407,11 +407,11 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 .advice {
   
   margin-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .advice:last-child {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .block-bilds {
@@ -420,7 +420,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 }
 
 .bilds-container {
-  
+  margin-top: 10px;
   display: flex;
  flex-direction: column;
   gap: 10px;
