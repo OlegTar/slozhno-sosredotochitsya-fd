@@ -422,10 +422,11 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 }
 
 .bilds-container {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
  flex-direction: column;
   gap: 10px;
+  margin-bottom: 40px;
 }
 
 @media (width >= 768px) {
