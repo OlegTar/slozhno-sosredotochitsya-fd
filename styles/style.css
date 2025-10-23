@@ -323,7 +323,7 @@ line-height: 23.4px;
 .block {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .block__title,
@@ -372,8 +372,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 
 .content-section__middle {
   grid-template-columns: 1fr;
-  margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 @media (width >= 1024px) {
