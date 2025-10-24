@@ -350,6 +350,12 @@ line-height: 23.4px;
   margin-bottom: 10px;
 }
 
+@media (width >= 1024px) {
+  .block__content {
+  margin-bottom: none;
+}
+}
+
 .block-link {
 text-decoration: none;
 text-shadow: 2px 2px 0 var(--section-heading-color);
@@ -378,6 +384,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 @media (width >= 1024px) {
   .content-section__middle {
   grid-template-columns: 1fr 1fr 1fr;
+
 }
 }
 
@@ -472,13 +479,6 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 
 @media (width >= 1024px) {
 	.footer .footer__focus {
-  text-shadow: 2px 2px 0 #ff0070;
-  color: rgba(219, 0, 255, 1);
-  position: relative;
-  font-family: var(--main-font-family);
-  font-weight: 700;
-  line-height: 83%;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-		font-size: 157px;
+	font-size: 157px;
 	}
 }
