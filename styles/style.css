@@ -32,7 +32,7 @@ display: grid;
     display: flex;
     flex-direction: column;
     position: relative;
-    padding: 20px 20px; */
+    padding: 0 20px;
   }
 }
 
@@ -384,7 +384,6 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 @media (width >= 1024px) {
   .content-section__middle {
   grid-template-columns: 1fr 1fr 1fr;
-
 }
 }
 
@@ -463,7 +462,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 @media (width >= 1024px) {
 	.footer {
 		margin-block-start: 60px;
-		padding: 20px;
+		padding: 0 20px;
 	}
 }
 
