@@ -108,6 +108,7 @@ display: grid;
 	flex-direction: column;
 	align-items: flex-end;
 padding-right: 20px;
+ padding-top: 65px; /*или 75*/
 gap: 10px;
 }
 
@@ -243,7 +244,7 @@ margin-bottom: 68px; /*добавила*/
    margin-left: 20px;
   margin-right: 20px;
   gap: 50px;
-  padding-top: 40px;
+  padding-top: 45px;
   }
 }
 
@@ -313,7 +314,6 @@ line-height: 23.4px;
 .block {
   display: flex;
   flex-direction: column;
- 
 }
 
 .content-section__title__bilds {
@@ -342,7 +342,6 @@ line-height: 23.4px;
 .block__subtitle {
   margin-top: 10px;
   font-weight: 400; 
- 
 }
 
 .block__content {
@@ -473,6 +472,13 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 
 @media (width >= 1024px) {
 	.footer .footer__focus {
+  text-shadow: 2px 2px 0 #ff0070;
+  color: rgba(219, 0, 255, 1);
+  position: relative;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  line-height: 83%;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 		font-size: 157px;
 	}
 }
