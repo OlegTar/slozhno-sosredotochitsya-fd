@@ -117,6 +117,7 @@ gap: 10px;
 @media (width >= 768px) {
 	.header__theme-menu-list {
 		padding-block-end: 57px;
+    padding-top: 193.5px;
 		justify-content: center;
 		align-items: flex-end;
        gap: 10px;
@@ -205,7 +206,6 @@ position: relative;
   }
 }
 
-
 .question {
  width: 355px;
   /* height: 71px; */
@@ -224,22 +224,22 @@ margin-bottom: 68px; /*добавила*/
 @media (width >= 768px) {
   .question {
      width: 364px;
+     height: 117px;
    margin-top: 162px;
     margin-left: 384px;
     margin-right: 20px;
-   height: 117px;
+    /* padding-bottom: 183px; */
   }
 }
 
 @media (width >= 1024px) {
   .question {
-     width: 491px;
+  width: 491px;
    margin-top: 114px;
     margin-left: 493px;
     margin-right: 20px;
   }
 }
-
 
 .content {
   display: flex;
@@ -286,6 +286,23 @@ line-height: 23.4px;
 }
 
 @media (width >= 768px) {
+  .middle {
+    width: 236px;
+    height: 70px;
+  }
+}
+
+@media (width >= 1024px) {
+  .content-section__title {
+   color: var(--main-color-title);
+font-weight: 700;
+font-family: var(--main-font-family);
+font-size: 18px;
+line-height: 23.4px;
+  }
+}
+
+@media (width >= 768px) {
   .content-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -294,14 +311,14 @@ line-height: 23.4px;
   }
 }
 
-@media (width >= 1024px) {
+/* @media (width >= 1024px) {
   .content-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
     font-size: 18px;
   }
-}
+} */
 
 .text-blocks {
   display: flex;
@@ -340,12 +357,11 @@ line-height: 23.4px;
 .block__title,
 .block__subtitle {
 background-color: var(--section-heading-color);
-color: var(--main-bg-color);
 font-size: 18px;
 font-family: var(--main-font-family);
 line-height: 23.4px;
  margin-bottom: 10px;
-
+color: (-main-bg-color);
 }
 
 .block__title {
@@ -393,6 +409,14 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
   grid-template-columns: 1fr;
   /* margin-bottom: 50px; */
 }
+
+@media (width >= 768px) {
+  .content-section__middle {
+  grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 80px;
+}
+}
+
 
 @media (width >= 1024px) {
   .content-section__middle {
@@ -480,6 +504,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 	/* padding: 10px; */
   margin-right: -10px;
 }
+
 
 @media (width >= 768px) {
 	.footer {
