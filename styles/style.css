@@ -276,8 +276,13 @@ margin-bottom: 68px; /*добавила*/
 margin-bottom: 0;
 } */
 
+@media (width >= 768px) {
+  .section:last-child {
+margin-bottom: 0;
+}}
+
 @media (width >= 1024px) {
-  .section {
+  .section:last-child {
 margin-bottom: 0;
 }}
 
@@ -552,7 +557,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 
 @media (width >= 1024px) {
 	.footer {
-		margin-block-start: 0;
+		/* margin-block-start: 60px; */
 		padding-left: 20px;
     padding-right: 20px;
 	}
