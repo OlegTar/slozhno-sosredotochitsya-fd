@@ -276,6 +276,18 @@ margin-bottom: 68px; /*добавила*/
 margin-bottom: 0;
 } */
 
+@media (width >= 768px) {
+  .section:last-child {
+margin-bottom: 0;
+}}
+
+@media (width >= 1024px) {
+  .section:last-child {
+margin-bottom: 0;
+}}
+
+
+
 .content-section {
   display: flex;
   flex-direction: column;
@@ -373,7 +385,7 @@ line-height: 23.4px;
 @media (width >= 768px) {
   .content-section__title__bilds {
    margin-top: 80px;
-   margin-bottom: 80px;
+   /* margin-bottom: 80px; */
   }
 }
 
