@@ -269,20 +269,15 @@ margin-bottom: 68px; /*добавила*/
   gap: 20px;
   font-size: var(--main-font-family);
   line-height: 23.4px;
-   /* margin-bottom: 40px; */
+   margin-bottom: 40px;
 }
 
 /* .section:last-child {
 margin-bottom: 0;
 } */
 
-@media (width >= 768px) {
-  .section:last-child {
-margin-bottom: 0;
-}}
-
 @media (width >= 1024px) {
-  .section:last-child {
+  .section {
 margin-bottom: 0;
 }}
 
@@ -557,7 +552,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 
 @media (width >= 1024px) {
 	.footer {
-		/* margin-block-start: 60px; */
+		margin-block-start: 0;
 		padding-left: 20px;
     padding-right: 20px;
 	}
