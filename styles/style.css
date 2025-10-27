@@ -290,11 +290,11 @@ margin-bottom: 0;
 margin-bottom: 0;
 }} */
 
-@media (width >= 768px) {
+/* @media (width >= 768px) {
   .section {
 margin-bottom: 50px;
 }
-}
+} */
 
 /* @media (width >= 1024px) {
 .section:last-child(2) {
@@ -510,7 +510,6 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 
 @media (width >= 1024px) {
 .block-bilds {
-
   margin-top: -80px;
 }}
 
