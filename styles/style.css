@@ -301,7 +301,7 @@ margin-bottom: 50px;
 margin-bottom: 40px;
 }
 .section:last-child {
-margin-bottom: 20px;
+margin-bottom: 0;
 }
 }
 
@@ -566,7 +566,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 
 @media (width >= 768px) {
 	.footer {
-		margin-block-start: 60px;
+		/* margin-block-start: 60px; */
 		padding-left: 20px;
     padding-right: 20px;
 	}
