@@ -259,7 +259,7 @@ margin-bottom: 68px; /*добавила*/
   .content {
    margin-left: 20px;
   margin-right: 20px;
-  gap: 50px;
+  /* gap: 50px; */
   padding-top: 40px;
   }
 }
@@ -497,7 +497,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 @media (width >= 1024px) {
 .advice {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 }
 
