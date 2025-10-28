@@ -406,11 +406,11 @@ line-height: 23.4px;
   }
 }
 
-@media (width >= 1024px) {
+/* @media (width >= 1024px) {
   .content-section__title__bilds {
    margin-bottom: 40px;
   }
-}
+} */
 
 .block__title,
 .block__subtitle {
