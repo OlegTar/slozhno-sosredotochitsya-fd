@@ -290,16 +290,16 @@ margin-bottom: 0;
 margin-bottom: 0;
 }} */
 
-/* @media (width >= 768px) {
+@media (width >= 768px) {
   .section {
 margin-bottom: 50px;
 }
-} */
+}
 
-/* @media (width >= 1024px) {
-.section:last-child(2) {
-margin-bottom: 0;
-} */
+@media (width >= 1024px) {
+.section {
+margin-bottom: -10px;
+    }}
 
 
 .content-section {
