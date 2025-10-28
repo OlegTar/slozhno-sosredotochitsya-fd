@@ -261,6 +261,7 @@ margin-bottom: 68px; /*добавила*/
    margin-left: 20px;
   margin-right: 20px;
   gap: 50px;
+  
   /* padding-top: 40px; */
   }
 }
@@ -571,7 +572,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 
 @media (width >= 768px) {
 	.footer {
-		/* margin-block-start: 60px; */
+		margin-block-start: 60px;
 		padding-left: 20px;
     padding-right: 20px;
 	}
