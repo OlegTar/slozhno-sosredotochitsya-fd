@@ -197,6 +197,7 @@ position: relative;
 	.focus {
 		font-size: var(--logo-size);
 		margin-inline-start: 20px;
+    margin-left: -10px;
 	}
 }
 
@@ -204,6 +205,7 @@ position: relative;
   .focus {
     font-size: 157px;
     margin-inline-start: 0;
+    margin-left: -10px;
   }
 }
 
@@ -509,7 +511,7 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 
 @media (width >= 1024px) {
 .advice:last-child {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 }
 
