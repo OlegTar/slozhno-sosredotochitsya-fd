@@ -505,15 +505,15 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 }
 }
 
-.advice:last-child {
+/* .advice:last-child {
   margin-bottom: 10px;
 }
 
 @media (width >= 1024px) {
 .advice:last-child {
   margin-bottom: 20px;
-}
-}
+} */
+
 
 .block-bilds {
 
