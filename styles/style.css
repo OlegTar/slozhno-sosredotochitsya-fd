@@ -209,7 +209,7 @@ position: relative;
 
 .question {
  width: 355px;
-  height: 71px;
+  height: 117px;
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 18px;
@@ -505,6 +505,12 @@ text-shadow: 2px 2px 0 var(--section-heading-color);
 
 .advice:last-child {
   margin-bottom: 10px;
+}
+
+@media (width >= 1024px) {
+.advice:last-child {
+  margin-bottom: 10px;
+}
 }
 
 .block-bilds {
