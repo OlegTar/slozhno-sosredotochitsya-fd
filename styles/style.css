@@ -339,7 +339,6 @@
 @media (width >= 768px) {
   .content-section__title__bilds {
     margin-top: 80px;
-    /* margin-bottom: 80px; */
   }
 }
 
@@ -402,7 +401,6 @@
 
 .content-section__middle {
   grid-template-columns: 1fr;
-  /* margin-bottom: 50px; */
 }
 
 @media (width >= 768px) {
@@ -508,7 +506,6 @@
 
 @media (width >= 1024px) {
   .footer {
-    /* margin-block-start: 60px; */
     padding-left: 20px;
     padding-right: 20px;
   }
