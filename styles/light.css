@@ -1,7 +1,7 @@
 :root.theme-light {
-	--main-font-family: "IBM Plex mono", monospace;
-  --main-color-title: #000028;
-	--main-bg-color: #fff1f7;
+--main-font-family: "IBM Plex mono", monospace;
+--main-color-title: #000028;
+--main-bg-color: #fff1f7;
 --bg-image: url(../images/cover-image-light.png);
 --main-text-color: rgba(53, 52, 48, 1);
 --nav-color: #353438;
@@ -21,9 +21,9 @@
 
  @media (prefers-color-scheme: light) {
     :root {
-	--main-font-family: "IBM Plex mono", monospace;
-  --main-color-title:#000028;
-	--main-bg-color: #fff1f7;
+--main-font-family: "IBM Plex mono", monospace;
+--main-color-title:#000028;
+--main-bg-color: #fff1f7;
 --bg-image: url(../images/cover-image-light.png);
 --main-text-color: rgba(53, 52, 48, 1);
 --nav-color: #353438;
