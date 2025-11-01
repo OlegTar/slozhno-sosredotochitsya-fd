@@ -12,7 +12,8 @@
 
 .header {
   position: relative;
-  max-height: 100vw;
+ height: 100vb;
+  min-height: 668px;
   min-width: 375px;
   display: grid;
   grid-template-rows: 35% 1fr 35%;
@@ -31,7 +32,7 @@
     position: relative;
     padding-left: 20px;
     padding-right: 20px; */
-
+  
     display: grid;
     grid-template-rows: 1fr min-content 1fr;
     justify-self: center;
@@ -40,8 +41,10 @@
 }
 
 .decorated-zone {
+
   position: relative;
-  min-block-size: 100vb;
+  /* height: 100vb;
+  min-height: 668px; */
 }
 
 .decorated-zone::before,
@@ -158,17 +161,17 @@
   pointer-events: none;
 }
 
-@media (width >= 1024px) {
+/* @media (width >= 1024px) {
   .header {
     min-block-size: 640px;
   }
-}
+} */
 
-@supports (block-size: 1000vb) {
+/* @supports (block-size: 1000vb) {
   .header {
     block-size: 100vb;
   }
-}
+} */
 
 .focus {
   position: relative;
@@ -183,7 +186,7 @@
 
 @media (width >= 768px) {
   .focus {
-    font-size: var(--logo-size);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     margin-inline-start: 20px;
     margin-left: -10px;
   }
@@ -191,20 +194,19 @@
 
 @media (width >= 1024px) {
   .focus {
-    font-size: 157px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     margin-inline-start: 0;
     margin-left: -10px;
   }
 }
 
 .question {
-  width: 355px;
-  height: 117px;
+  max-width: 355px;
+  width: 100%;
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  letter-spacing: 0%;
   opacity: 1;
   background-color: var(--section-heading-color);
   justify-self: center;
@@ -214,8 +216,7 @@
 
 @media (width >= 768px) {
   .question {
-    width: 364px;
-    height: 117px;
+    max-width: 364px;
     margin-top: 162px;
     margin-left: 384px;
     margin-right: 20px;
@@ -225,8 +226,7 @@
 
 @media (width >= 1024px) {
   .question {
-    width: 491px;
-    height: 71px;
+    max-width: 491px;
     margin-top: 114px;
     margin-left: 493px;
     margin-right: 20px;
@@ -360,7 +360,7 @@
   font-family: var(--main-font-family);
   line-height: 23.4px;
   margin-bottom: 10px;
-  color: (-main-bg-color);
+  color: var(-main-bg-color);
 }
 
 .block__title {
@@ -380,7 +380,7 @@
 
 @media (width >= 1024px) {
   .block__content {
-    margin-bottom: none;
+    margin-bottom: 0;
   }
 }
 
@@ -528,6 +528,6 @@
 
 @media (width >= 1024px) {
   .footer .footer__focus {
-    font-size: 157px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
   }
 }
