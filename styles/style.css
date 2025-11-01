@@ -495,6 +495,8 @@
 }
 
 .footer {
+  height: 100vb;
+  min-height: 668px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -503,6 +505,7 @@
 
 @media (width >= 768px) {
   .footer {
+
     margin-block-start: 60px;
     padding-left: 20px;
     padding-right: 20px;
