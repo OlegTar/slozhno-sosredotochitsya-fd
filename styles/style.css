@@ -6,13 +6,13 @@
   background-attachment: fixed;
   background-color: var(--main-heading-color);
   overflow: auto;
-  appearance: none;
+  appearance: none; 
   background-image: var(--bg-image);
 }
 
 .header {
   position: relative;
-  height: 100vb;
+ height: 100vb;
   min-height: 668px;
   min-width: 375px;
   display: grid;
@@ -474,6 +474,7 @@
 
 @media (width >= 768px) {
   .footer {
+
     margin-block-start: 60px;
     padding-left: 20px;
     padding-right: 20px;
@@ -499,6 +500,6 @@
 
 @media (width >= 1024px) {
   .footer .footer__focus {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
   }
 }
