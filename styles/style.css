@@ -386,6 +386,7 @@
 @media (width >= 768px) {
   .content-section__middle {
     grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 10px;
   }
 }
 
