@@ -6,12 +6,13 @@
 --nav-color: #ff0070;
 --nav-hover-color: rgba(59 49 45 / 0.4);
 --main-heading-color: rgba(0, 0, 40);
---section-heading-color: #ff0070;
+--section-heading-color: #ff0070; 
 --button-hover: rgba(255, 0, 112, 0.4);
 --button-focus: rgba(255, 0, 112, 1);
 --button-active: rgba(255, 0, 112, 1);
 --header-logo-color: #ffc2e6;
 --footer-logo-color: #ffc2e6;
+
 
 }
 

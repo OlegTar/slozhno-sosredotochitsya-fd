@@ -251,7 +251,13 @@
   .content {
     margin-left: 20px;
     margin-right: 20px;
-    gap: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (width >= 1024px) {
+  .content:last-child {
+    gap: none;
   }
 }
 
@@ -386,11 +392,11 @@
 
 .block-link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--section-heading-color);
+  text-shadow: 2px 2px 0 var(--main-text-color);
 }
 
 .block-link:hover {
-  outline: 1px solid var(--button-hover);
+  border-bottom: 1px solid var(--button-hover);
 }
 
 .block-link:focus {
@@ -444,11 +450,11 @@
   gap: 20px;
 }
 
-@media (width >= 1024px) {
+/* @media (width >= 1024px) {
   .block-bilds {
     margin-top: -80px;
   }
-}
+} */
 
 .bilds-container {
   margin-top: 10px;
