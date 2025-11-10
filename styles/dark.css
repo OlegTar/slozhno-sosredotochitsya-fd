@@ -2,15 +2,17 @@
 --main-color-title: #ff0070;
 --main-bg-color: #000028;
 --bg-image: url(../images/cover-image-dark.png);
---main-text-color: #f1b2ce;
+ --main-text-color: #f1b2ce;
 --nav-color: #ff0070;
---nav-hover-color: rgba(59 49 45 / 0.4);
+--nav-hover-color: rgb(255 0 112 / 0.4);
 --main-heading-color: rgba(0, 0, 40);
+--section-heading-color: #ff0070;
+--decorative-elements: #ff0070;
 --button-hover: rgba(255, 0, 112, 0.4);
 --button-focus: rgba(255, 0, 112, 1);
 --button-active: rgba(255, 0, 112, 1);
---header-logo-color: #ffc2e6;
---footer-logo-color: #ffc2e6;
+--header-logo-color: #db00ff;
+--footer-logo-color: #db00ff;
 }
 
 .theme-dark .header__decorated-element {
