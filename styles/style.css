@@ -193,15 +193,17 @@
 }
 
 .content {
-  /* display: flex;
+ display: grid; 
+ padding: var(--main-gap);
+ /* display: flex;
   flex-direction: column; */
-display: grid;
+
 /* grid-template-rows: 1fr 1fr 1fr 1fr; */
 
   /* margin-left: 10px; */
   /* /* margin-right: 10px; */
   /* gap: 30px; */
-  padding: var(--main-gap);
+  
 }
 
 @media (width >=768px) {
