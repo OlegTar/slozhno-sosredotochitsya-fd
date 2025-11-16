@@ -399,7 +399,7 @@ display: grid;
 @media (width >=1024px) {
   .content-section__middle {
     /* margin-top: 80px; */
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 }
 
