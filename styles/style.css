@@ -325,8 +325,14 @@ display: grid;
   font-weight: 700;
 }
 
+@media (width >=1024px) {
+  .block__title {
+    margin-bottom: 20px;
+  }
+}
+
 .subtitle {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   font-weight: 400;
 }
 
