@@ -305,6 +305,7 @@
   font-family: var(--main-font-family);
   font-size: 18px;
   line-height: 23.4px;
+  margin-top: -20px;
 }
 
 /* * @media (width >=768px) {
