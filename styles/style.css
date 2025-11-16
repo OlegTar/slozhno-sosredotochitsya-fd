@@ -327,7 +327,7 @@ display: grid;
 
 @media (width >=1024px) {
   .block__title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
@@ -407,7 +407,7 @@ display: grid;
 
 
 .advice {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: 20px;
 }
 
