@@ -496,7 +496,7 @@ display: grid;
 
 @media (width >=768px) {
   .footer {
-    margin-block-start: 60px;
+    margin-block-start: 40px;
     padding: var(--main-gap);
   }
 }
