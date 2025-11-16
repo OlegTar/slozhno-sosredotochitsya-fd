@@ -303,7 +303,7 @@ display: grid;
   line-height: 23.4px;
 }
 
-@media (width >=768px) {
+/* @media (width >=768px) {
   .content-section__title__bilds {
     margin-top: 60px;
   }
@@ -313,7 +313,7 @@ display: grid;
   .content-section__title__bilds {
     margin-top: 80px;
   }
-}
+} */
 
 .block__title {
   background-color: var(--main-color-title);
