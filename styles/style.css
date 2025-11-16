@@ -333,6 +333,7 @@ display: grid;
 
 .subtitle {
   /* margin-top: 10px; */
+   margin-bottom: 0;
   font-weight: 400;
 }
 
@@ -403,6 +404,8 @@ display: grid;
   }
 }
 
+
+
 .advice {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -411,9 +414,15 @@ display: grid;
 @media (width >=1024px) {
   .advice {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 }
+/* @media (width >=1024px) {
+.block__lists {
+  display: block;
+   gap: 20px;
+}
+} */
 
 .block-bilds {
   gap: 20px;
