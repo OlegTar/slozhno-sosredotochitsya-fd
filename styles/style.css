@@ -303,17 +303,17 @@ display: grid;
   line-height: 23.4px;
 }
 
-/* @media (width >=768px) {
+/* * @media (width >=768px) {
   .content-section__title__bilds {
     margin-top: 60px;
   }
-}
+} */
 
 @media (width >=1024px) {
   .content-section__title__bilds {
-    margin-top: 80px;
+    margin-top: -20px;
   }
-} */
+}
 
 .block__title {
   background-color: var(--main-color-title);
@@ -341,7 +341,8 @@ display: grid;
 .subtitle {
    margin-bottom: 10px;
   font-weight: 400;
-}}
+}
+}
 
 
 .block__title__why {
