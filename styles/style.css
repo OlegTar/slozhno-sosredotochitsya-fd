@@ -247,7 +247,7 @@ display: grid;
 .content-section__why {
   display: flex;
   flex-direction: column;
-  padding-top: 40px; 
+  /* padding-top: 40px;  */
 }
 
 @media (width >=768px) {
@@ -256,7 +256,7 @@ display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     font-size: 18px;
-    padding-top: 40px; 
+    /* padding-top: 40px;  */
   }
 }
 
@@ -458,8 +458,7 @@ display: grid;
 @media (width >=768px) {
   .footer {
     margin-block-start: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: var(--main-gap);
   }
 }
 
