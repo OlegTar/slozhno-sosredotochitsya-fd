@@ -337,6 +337,12 @@ display: grid;
   font-weight: 400;
 }
 
+@media (width >=1024px) {
+.subtitle {
+   margin-bottom: 10px;
+  font-weight: 400;
+}}
+
 
 .block__title__why {
   background-color: var(--main-color-title);
