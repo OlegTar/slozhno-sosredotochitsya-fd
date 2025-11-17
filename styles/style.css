@@ -398,8 +398,8 @@
 
 @media (width >=768px) {
   .content-section__advice {
-    grid-template-columns: 1fr min-content 1.8fr;
-    /* padding-bottom: 80px; */
+    grid-template-columns: 1fr 32px 1.9fr;
+
   }
 }
 
