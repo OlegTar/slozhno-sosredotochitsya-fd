@@ -431,6 +431,7 @@
   .content-section__advice {
     grid-template-columns: 1fr 20px 2fr;
     /* column-gap: 20px; */
+    padding-bottom: 60px;
   }
 }
 
@@ -439,7 +440,7 @@
     /* display: grid; */
     grid-template-columns: 1fr 20px 2.06fr;
     /* column-gap: 20px; */
-    padding-bottom: 60px;
+    
   }
 }
 
