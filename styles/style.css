@@ -429,7 +429,8 @@
 
 @media (width >=768px) {
   .content-section__advice {
-    grid-template-columns: 1fr 20px 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
   }
 }
 
