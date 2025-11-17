@@ -399,7 +399,7 @@
 @media (width >=768px) {
   .content-section__advice {
     grid-template-columns: 1fr 32px 1.9fr;
-    /* padding-bottom: 80px; */
+
   }
 }
 
@@ -415,7 +415,7 @@
 
 @media (width >=768px) {
   .advice {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 
