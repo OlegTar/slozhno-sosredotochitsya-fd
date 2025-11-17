@@ -419,7 +419,7 @@
 
 @media (width >=768px) {
   .block__content__advice {
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
 }
 
