@@ -399,7 +399,6 @@
 @media (width >=768px) {
   .content-section__advice {
     grid-template-columns: 1fr 32px 1.9fr;
-
   }
 }
 
