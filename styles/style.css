@@ -327,7 +327,7 @@
   font-size: 18px;
   font-family: var(--main-font-family);
   line-height: 23.4px;
-  margin-bottom: 10px;
+  margin-bottom: 9.9px;
   color: var(--main-heading-color);
   font-weight: 700;
  
@@ -435,7 +435,7 @@
 @media (width >=768px) {
   .content-section__advice {
     grid-template-columns: 1fr min-content 1.8fr;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
   }
 }
 
@@ -444,7 +444,7 @@
     /* display: grid; */
     grid-template-columns: 1fr 20px 2.06fr;
     /* column-gap: 20px; */
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
   }
 }
 
