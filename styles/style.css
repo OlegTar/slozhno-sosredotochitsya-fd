@@ -193,36 +193,20 @@
 }
 
 .content {
- display: grid; 
- padding: var(--main-gap);
- /* display: flex;
-  flex-direction: column; */
-
-/* grid-template-rows: 1fr 1fr 1fr 1fr; */
-
-  /* margin-left: 10px; */
-  /* /* margin-right: 10px; */
-  /* gap: 30px; */
-  
+  display: grid;
+  padding: var(--main-gap);
 }
 
 @media (width >=768px) {
   .content {
-     
     padding-top: 40px;
-     /* gap: 80px; */
   }
 }
 
 @media (width >=1024px) {
   .content {
-
-    /* display: flex;
-  flex-direction: column; */
-    /* margin-left: 20px;
-    margin-right: 20px; */
-     padding-top: 40px;
-     gap: 80px;
+    padding-top: 40px;
+    gap: 80px;
   }
 }
 
@@ -251,7 +235,6 @@
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  
 }
 
 @media (width >=768px) {
@@ -263,8 +246,6 @@
     padding-top: 20px;
   }
 }
-
-
 
 .content-section__title {
   color: var(--section-heading-color);
@@ -310,12 +291,6 @@
   margin-top: -12px;
 }
 
-/* * @media (width >=768px) {
-  .content-section__title__bilds {
-    margin-top: 60px;
-  }
-} */
-
 @media (width >=1024px) {
   .content-section__title__bilds {
     margin-top: -20px;
@@ -330,7 +305,6 @@
   margin-bottom: 9.9px;
   color: var(--main-heading-color);
   font-weight: 700;
- 
 }
 
 @media (width >=1024px) {
@@ -340,18 +314,15 @@
 }
 
 .subtitle {
-  /* margin-top: 10px; */
-   /* margin-bottom: 0; */
   font-weight: 400;
 }
 
 @media (width >=1024px) {
-.subtitle {
-   margin-bottom: 10px;
-  font-weight: 400;
+  .subtitle {
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
 }
-}
-
 
 .block__title__advice {
   background-color: var(--main-color-title);
@@ -415,13 +386,6 @@
   }
 }
 
-@media (width >=1024px) {
-  .content-section__middle {
-    /* margin-top: 80px; */
-    /* margin-bottom: 20px; */
-  }
-}
-
 .content-section__middle .text-blocks {
   display: grid;
   grid-row: 2;
@@ -441,14 +405,9 @@
 
 @media (width >=1024px) {
   .content-section__advice {
-    /* display: grid; */
     grid-template-columns: 1fr 20px 1.9fr;
-    /* column-gap: 20px; */
-    /* padding-bottom: 0; */
   }
 }
-
-
 
 .advice {
   margin-bottom: 20px;
@@ -462,16 +421,9 @@
 
 @media (width >=1024px) {
   .advice {
-    /* margin-top: 0; */
     margin-bottom: 20px;
   }
 }
-/* @media (width >=1024px) {
-.block__lists {
-  display: block;
-   gap: 20px;
-}
-} */
 
 .block-bilds {
   gap: 20px;
