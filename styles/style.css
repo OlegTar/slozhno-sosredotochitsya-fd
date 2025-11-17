@@ -456,7 +456,7 @@
 
 @media (width >=768px) {
   .advice {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 }
 
