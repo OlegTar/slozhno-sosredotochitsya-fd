@@ -398,7 +398,7 @@
 
 @media (width >=768px) {
   .content-section__advice {
-    grid-template-columns: 1fr 32px 1.9fr;
+    grid-template-columns: 1fr min-content 1.8fr;
 
   }
 }
@@ -413,7 +413,7 @@
   margin-bottom: 20px;
 }
 
-@media (width >=768px) {
+/* @media (width >=768px) {
   .advice {
     margin-bottom: 20px;
   }
@@ -423,7 +423,7 @@
   .advice {
     margin-bottom: 20px;
   }
-}
+} */
 
 .block-bilds {
   gap: 20px;
