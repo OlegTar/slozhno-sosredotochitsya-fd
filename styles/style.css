@@ -408,21 +408,26 @@
   }
 }
 
-.advice {
+.block__content__advice {
+  color: var(--main-text-color);
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
   margin-bottom: 20px;
 }
 
-@media (width >=768px) {
-  .advice {
-    margin-bottom: 0;
+/* @media (width >=768px) {
+  .block__content__advice {
+    margin-bottom: 20px;
   }
 }
 
 @media (width >=1024px) {
-  .advice {
+  .block__content__advice {
     margin-bottom: 20px;
   }
-}
+} */
 
 .block-bilds {
   gap: 20px;
