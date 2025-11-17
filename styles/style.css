@@ -417,9 +417,9 @@
   margin-bottom: 20px;
 }
 
-/* @media (width >=768px) {
+@media (width >=768px) {
   .block__content__advice {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
@@ -427,7 +427,7 @@
   .block__content__advice {
     margin-bottom: 20px;
   }
-} */
+}
 
 .block-bilds {
   gap: 20px;
