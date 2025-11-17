@@ -305,7 +305,7 @@
   font-family: var(--main-font-family);
   font-size: 18px;
   line-height: 23.4px;
-  margin-top: -15px;
+  margin-top: -12px;
 }
 
 /* * @media (width >=768px) {
@@ -448,12 +448,19 @@
   margin-bottom: 20px;
 }
 
-@media (width >=1024px) {
+@media (width >=768px) {
   .advice {
     margin-top: 0;
     margin-bottom: 20px;
   }
 }
+
+/* @media (width >=1024px) {
+  .advice {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+} */
 /* @media (width >=1024px) {
 .block__lists {
   display: block;
