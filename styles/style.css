@@ -413,7 +413,7 @@
 
 @media (width >=768px) {
   .content-section__advice {
-    grid-template-columns: 1fr 0.92 1fr;
+    grid-template-columns: 1fr 20px 1.7fr;
     margin-bottom: 48px;
   }
 }
@@ -486,6 +486,7 @@
 
 .footer {
   height: 100vb;
+  height: 100%;
   min-height: 668px;
   display: flex;
   justify-content: center;
