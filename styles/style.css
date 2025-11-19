@@ -421,7 +421,7 @@
 @media (width >=1024px) {
   .content-section__advice {
     grid-template-columns: 1fr 20px 1.9fr;
-     margin-bottom: 28px;
+     margin-bottom: 20px;
   }
 }
 
