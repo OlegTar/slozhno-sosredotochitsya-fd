@@ -309,16 +309,16 @@
   font-size: 18px;
   font-family: var(--main-font-family);
   line-height: 23.4px;
-  margin-bottom: 9.9px;
+  /* margin-bottom: 9.9px; */
   color: var(--main-heading-color);
   font-weight: 700;
 }
 
-@media (width >=1024px) {
+/* @media (width >=1024px) {
   .block__title {
-    margin-bottom: 10px;
+  
   }
-}
+} */
 
 .subtitle {
   font-weight: 400;
@@ -352,12 +352,14 @@
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 18px;
+  margin-top: 9.9px;
   margin-bottom: 10px;
   line-height: 23.4px;
 }
 
 @media (width >=1024px) {
   .block__content {
+    margin-bottom: 10px;
     margin-bottom: 0;
   }
 }
@@ -436,7 +438,7 @@
 
 @media (width >=768px) {
   .block__content__advice {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 
