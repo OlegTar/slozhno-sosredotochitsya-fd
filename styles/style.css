@@ -240,7 +240,7 @@
 @media (width >=768px) {
   .content-section__why {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.92fr 1fr;
     gap: 20px;
     font-size: 18px;
     padding-top: 20px;
