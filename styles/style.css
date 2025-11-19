@@ -396,7 +396,7 @@
 
 @media (width >=1024px) {
   .content-section__middle {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 }
 
