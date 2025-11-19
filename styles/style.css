@@ -273,7 +273,7 @@
   .text-blocks {
     display: flex;
     flex-direction: column;
-    /* gap: 20px; */
+    gap: 20px;
     grid-column: span 2;
   }
 }
@@ -314,17 +314,9 @@
   font-weight: 700;
 }
 
-@media (width >=768px) {
-  .block__title {
-   
-    margin-top: 10px; /* добавила */
-  }
-}
-
 @media (width >=1024px) {
   .block__title {
     margin-bottom: 10px;
-   
   }
 }
 
@@ -444,7 +436,7 @@
 
 @media (width >=768px) {
   .block__content__advice {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
