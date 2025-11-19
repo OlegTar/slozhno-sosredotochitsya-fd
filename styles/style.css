@@ -413,7 +413,7 @@
 
 @media (width >=768px) {
   .content-section__advice {
-    grid-template-columns: 1fr min-content 1.8fr;
+    grid-template-columns: 1fr 0.92 1fr;
     margin-bottom: 48px;
   }
 }
@@ -421,7 +421,7 @@
 @media (width >=1024px) {
   .content-section__advice {
     grid-template-columns: 1fr 20px 1.9fr;
-     margin-bottom: 5px;
+     margin-bottom: 0;
   }
 }
 
