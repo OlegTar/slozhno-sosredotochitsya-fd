@@ -290,7 +290,7 @@
   font-family: var(--main-font-family);
   font-size: 18px;
   line-height: 23.4px;
-  margin-top: -12px;
+  /* margin-top: -12px; */
 }
 
 @media (width >=1024px) {
